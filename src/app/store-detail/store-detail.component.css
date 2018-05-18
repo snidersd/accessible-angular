@@ -1,0 +1,39 @@
+label {
+    display: inline-block;
+    width: 8em;
+    margin: .5em 0;
+    color: black;
+    font-weight: bold;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelvNeueLightforIBM", Arial, sans-serif;
+  }
+  input {
+    height: 2em;
+    font-size: 1em;
+    padding: 5px 10px;
+    width: 200%;
+  }
+  button {
+    margin-top: 20px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelvNeueLightforIBM", Arial, sans-serif;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer; cursor: hand;
+  }
+  button:hover {
+    background-color: #cfd8dc;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
+  span{font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelvNeueLightforIBM", Arial, sans-serif;
+  }
+  h2 {
+    text-align: left; margin-bottom: 0;
+    font-size: 1.2;
+    line-height: 1.25;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelvNeueLightforIBM", Arial, sans-serif;
+  }

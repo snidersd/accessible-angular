@@ -1,0 +1,11 @@
+<h3>Top Stores</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let store of stores" class="col-1-4"
+    routerLink="/detail/{{store.id}}">
+    <div class="module store">
+      <h4>{{store.name}}</h4>
+      <h3>Rated# {{store.id}}</h3>
+    </div>
+  </a>
+
+
