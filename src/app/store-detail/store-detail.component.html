@@ -1,0 +1,17 @@
+<div *ngIf="store">
+
+  <h2>{{ store.name | uppercase }} DETAILS</h2>
+  <br>
+  <div><span><strong>Rating Number:</strong></span> {{store.id}}</div>
+  <div>
+    <label>Store Name:
+      <input [(ngModel)]="store.name" placeholder="name"/>
+    </label>
+  </div>
+  <div>
+    <label>Store Address:
+      <input [(ngModel)]="store.address" placeholder="address"/>
+    </label>
+  </div>
+  <button (click)="goBack()">Go Back</button>
+</div>
