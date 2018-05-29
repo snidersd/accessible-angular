@@ -1,0 +1,49 @@
+<nav aria-label="va11yS"><a href="https://ibma.github.io/Va11yS/">Back to Va11yS</a></nav>
+<main>
+  <h1>
+    {{ title }}
+  </h1>
+  <p>These Angular 6 examples are included in an application that is deployed on GitHub. 
+    It was created using the <a href="https://cli.angular.io/">Angular CLI</a> and the <a href="https://angular.io/tutorial">Angular Tour of Heroes tutorial</a>. Accessibility test results 
+    are included at the bottom of the page.
+ </p>
+ <p>To improve accessibility, the following have been added to the application:</p>
+ <ul>
+   <li>W3C WAI ARIA Landmarks.</li>
+   <li>Styles to improve color contrast.</li>
+ </ul>
+
+  <hr>
+  <h2>Top 10 Stores</h2>
+  <nav aria-label="store navigation">
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/stores">Stores</a>
+  </nav>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+</main>
+<footer role="contentinfo">
+  <hr>
+  <h3>Tested on:</h3>
+    <div>
+     <ul>
+       <li>Mac OS Sierra 10.13.4, Chrome browser and VoiceOver are based on the Mac OS version.</li>
+        <ul>
+          <li>Results - VoiceOver announces:</li>
+            <ul>
+              <li>All headings as "Heading level xx. You are currently on a heading level xx".</li>
+              <li>Navigation. You are currently in a navigation.</li>
+              <li>All links in the navigation and indicates if is a visited link.</li>
+              <li>End of navigation. You are currently in a navigation.
+              <li>All links in the main content.</li>
+              <li>All button labels are announced and, "To click this button press Control-Option-Space".</li>
+              <li>Store services. Fetch stores. You are currently on a text element.</li>
+              <li>End of main. You are currently on a main inside web content. To exit this web area, press
+                Control-Option-Shift-Up Arrow.
+              </li>
+            </ul>
+        </ul>
+     </ul>
+    </div>
+</footer>
+
