@@ -7,9 +7,8 @@ To see the working demo, go to [Angular 6 Examples](https://snidersd.github.io/a
 Select the link in the left navigation pane of the demo to view the example for each element. Accessibility test results are also included at the bottom of each example.
 
 To improve accessibility, the following have been added to the application:
-
-W3C WAI ARIA Landmarks.
-Styles to improve color contrast.
+- W3C WAI ARIA Landmarks.
+- Styles to improve color contrast.
 
 ## Installation Instructions
 Follow these steps to install the Angular 6 Example application:
